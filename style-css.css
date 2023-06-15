@@ -1,0 +1,361 @@
+/* Aluno: Joao Vitor Schiavinato Delfino */
+/* RA: A2453363 */
+
+body {
+    color: white;
+    background-color: beige;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+
+    background-color: #2cb64e;
+    border-radius: 10px;
+}
+
+.reciclagemLogo {
+    width: 100px;
+    float: left;
+}
+
+#imagemReciclagemLogo {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.containerImagem {
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    width: 420px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagemTiposLixo {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.menu {
+    background-color: #2cb64e;
+    padding: 40px;
+
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.secaoCadastrar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    justify-content: center;
+}
+
+select {
+    color: #555;
+    
+    padding: 10px;
+
+    text-align: center;
+}
+
+input {
+    width: 40%;
+    padding: 10px;
+    margin: 0;
+
+    border: none;
+}
+
+/* BOTOES */
+button:hover {
+    background-color: #d8d8d8;
+    transition: 1s;
+}
+
+#botaoEnviar {
+    color: #555;
+
+    width: 12%;
+    padding: 10px;
+
+    border-width: 1px;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+#botaoCadastro {
+    color: #555;
+
+    width: 8%;
+    padding: 10px;
+
+    border-width: 1px;
+    border-radius: 40px;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+#botaoFiltro {
+    color: #555;
+
+    width: 8%;
+    padding: 10px;
+
+    border-width: 1px;
+    border-radius: 40px;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+#botaoHorarios {
+    color: #555;
+
+    width: 8%;
+    padding: 10px;
+
+    border-width: 1px;
+    border-radius: 40px;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+#botaoFiltrar {
+    color: #555;
+
+    width: 8%;
+    padding: 10px;
+
+    border-width: 1px;
+    border-radius: 40px;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+.secaoFiltrar {
+    margin-top: 0px !important;
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    margin-top: 20px;
+
+    gap: 20px;
+    justify-content: center;
+}
+
+.secaoMenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    margin-top: 20px;
+
+    gap: 20px;
+    justify-content: center;
+}
+
+.tabela {
+    width: 100%;
+    height: 100%;
+
+    background-color: beige;
+}
+
+ul {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+
+    border: 10px;
+    border-color: #2cb64e;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+ul li {
+    height: 40px;
+    width: 100%;
+
+    position: relative;
+
+    list-style-type: none;
+
+    display: flex;
+    gap: 20px;
+}
+
+li h3 {
+    margin: 0;
+    width: 100px;
+    height: 100%;
+
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+li p {
+    width: 100%;
+
+    margin: 0;
+    padding-left: 30px;
+
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+    
+    box-sizing: border-box;
+
+    text-align: left;
+}
+
+li span {
+    background-color: #edeef0;
+
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#secaoHorarios {
+    display: none;
+
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    padding: 20px 40px 20px 40px;
+
+    border: 10px;
+    border-color: #2cb64e;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#secaoHorarios li {
+    font-size: 20px;
+
+    height: 60px;
+    width: 100%;
+
+    position: relative;
+
+    list-style-type: none;
+
+    display: flex;
+    gap: 20px;
+}
+
+#secaoHorarios li h4 {
+    background-color: #2cb64e;
+    font-weight: normal;
+    padding: 10px;
+
+    margin: 0;
+    width: 35%;
+    height: 100%;
+
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    justify-content: center;
+    text-align: center;
+}
+
+#secaoHorarios li h5 {
+    background-color: #2cb64e;
+    font-weight: normal;
+    padding: 10px;
+
+    margin: 0;
+    width: 15%;
+    height: 100%;
+
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    justify-content: center;
+    text-align: center;
+}
+
+#secaoHorarios li p {
+    background-color: #2cb64e;
+    width: 50%;
+    padding: 10px;
+
+    margin: 0;
+    padding-left: 30px;
+
+    border: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+    
+    box-sizing: border-box;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.horarioColunas {
+    font-size: 25px;
+    font-weight: bolder !important;
+
+    background-color: #677e6d !important;
+}
+
+li span:hover {
+    background-color: rgb(250, 170, 170);
+}
+
+#plastico {
+    background-color: rgb(191, 9, 9);
+}
+
+#papel {
+    background-color: rgb(53, 26, 189);
+}
+
+#vidro {
+    background-color: rgb(14, 119, 17);
+}
+
+#metal {
+    background-color: rgb(221, 221, 0);
+}
+
+#organico {
+    background-color: rgb(140, 123, 84);
+}
