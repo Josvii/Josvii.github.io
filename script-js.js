@@ -106,9 +106,9 @@ function escondeElemento(numero) {
 // LISTA NORMAL
 // Remover o item da lista HTML
 // Event listener para toda vez que o usário apertar o X
-listaMateriais.addEventListener("click", function(e) {
-	if (e.target.tagName === "SPAN") {
-		e.target.parentElement.remove();
+listaMateriais.addEventListener("click", function(elemento) {
+	if (elemento.target.tagName === "SPAN") {
+		elemento.target.parentElement.remove();
         salvarLista();
     }
 }, false);

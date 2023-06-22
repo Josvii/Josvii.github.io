@@ -28,7 +28,7 @@ header {
     margin-bottom: 30px;
     margin-top: 30px;
 
-    width: 420px;
+    width: 470px;
 
     display: block;
     margin-left: auto;
@@ -353,7 +353,7 @@ li span:hover {
 }
 
 #metal {
-    background-color: rgb(221, 221, 0);
+    background-color: rgb(205, 205, 0);
 }
 
 #organico {
